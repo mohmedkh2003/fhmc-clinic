@@ -1,0 +1,247 @@
+/*------------- #MAIN RTL STYLES --------------*/
+/*------------------------------------------------------------------
+-------------------------------------------------------------------*/
+
+
+/*------------- #general --------------*/
+
+@import url('https://fonts.cdnfonts.com/css/tajawal');
+
+body{
+    
+  
+    font-family: 'Tajawal';
+    direction:rtl;
+    text-align: right;
+    line-height: 1.3;
+}
+
+:root{
+    
+}
+
+.main-title,
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    
+    line-height: 1.3 !important;
+}
+.duplicated-btn{
+    
+    font-weight: 500;
+}
+
+/**** scrollup***/
+
+.scrollup{
+    
+    right: auto;
+    left: 25px;
+    
+    
+}
+
+/* breadcrumb */
+
+.breadcrumb-nav .breadcrumb .breadcrumb-item {
+    
+    font-weight: 500;
+}
+
+.breadcrumb-nav .breadcrumb-item+.breadcrumb-item{
+    
+        padding-left: 0rem;
+        padding-right: .5rem;
+}
+.breadcrumb-nav .breadcrumb-item+.breadcrumb-item::before{
+    
+    float: right;
+    padding-left: .5rem;
+    padding-right: 0rem;
+   
+}
+
+/* Underline From Left */
+.hvr-underline-from-left::before{
+    
+    left: 100%;
+    right: 0;
+    -webkit-transition-property: left;
+    transition-property: left;
+
+}
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before,
+.top-nav .navbar-content .navbar-menu .menu-item .navbar-link.active::before{
+    
+    left: 0 !important;
+    
+}
+
+
+
+/*------------- #header --------------*/
+
+.top-nav .navbar-content  .lang-btn i,
+.top-nav .navbar-content  .lang-btn img{
+    
+    margin-right: 0;
+    margin-left: .5rem;
+}
+
+/*------------- #footer --------------*/ 
+
+
+footer .footer-col .menu-list .item-link::before{
+    
+    right: 0;
+    
+}
+footer .footer-col .menu-list .item-link:hover{
+    
+    padding-right: 25px;
+    padding-left:0;
+    
+}
+footer .footer-col .social-list >*:not(:last-child){
+    
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+/*------------- #welcome-section --------------*/ 
+
+
+.welcome-section .welcome-container .welcome-content .welcome-info .info-item{
+    
+    margin-left: 2rem;
+    margin-right: 0rem;
+   
+}
+.welcome-section .welcome-container .welcome-content .welcome-info .info-item:last-child{
+    
+    margin-left: 0;
+    
+}
+.welcome-section .welcome-container .welcome-content .welcome-info .info-item .info-icon{
+    
+    margin-left: 1rem;
+    margin-right: 0rem;
+    
+}
+@media(max-width:575.98px){
+    
+  
+    .welcome-section .welcome-container .welcome-content .welcome-info .info-item:not(:last-child){
+
+        margin-left: 0;
+        
+    }
+    
+}
+
+
+/*------------- #about-section --------------*/ 
+
+.about-area .about-info .info-item .info-icon{
+    
+    margin-left: 1rem;
+    margin-right: 0rem;
+   
+}
+.about-area .doctor-name{
+    
+    margin-bottom: .375rem;
+}
+.services-details-area .desc-banner .banner-img{
+    
+    justify-content: center;
+    text-align: center;
+}
+
+@media(min-width:992px){
+    
+     .about-area .doctor-img .exp-years{
+        
+         right: 1.5rem;
+         left: auto;
+         
+         
+    }
+    
+}
+@media(min-width:1300px){
+    
+    .about-area .doctor-img .exp-years{
+        
+         right: -50px;
+         left: auto;
+
+        
+    }
+}
+
+
+
+/*------------- # banner-section --------------*/ 
+
+.banner-area .banner-text{
+    
+    line-height: inherit;
+}
+
+/*------------- #services-section --------------*/ 
+
+
+/*------------- #contact-area --------------*/ 
+
+.contact-area .box-item .info-items .info-item .info-icon{
+    
+    margin-left: 1rem;
+    margin-right: 0rem;
+   
+}
+.contact-area .box-item.hours-box .info-items .info-item .info-texts >*:first-child:not(:last-child){
+    margin-left: 1.5rem;
+    margin-right: 0rem;
+}
+@media(max-width:575.98px){
+    
+    .contact-area .box-item.hours-box .info-items .info-item .info-texts >*:first-child:not(:last-child){
+        
+        margin-left: 0;
+
+    }
+
+}
+
+/*------------- #staff-section --------------*/ 
+
+
+.staff-area .staff-box .contact-btn{
+    
+    padding-bottom: .25rem;
+}
+
+.bootstarp-pagination .pagination .page-item:first-child .page-link{
+    
+    border-radius: 0 0.25rem  0.25rem 0 ;
+}
+.bootstarp-pagination .pagination .page-item:last-child .page-link{
+    
+    border-radius:  0.25rem  0  0  0.25rem ;
+}
+
+/*------------- #services-page --------------*/ 
+
+.services-details-area .texts-list li::before{
+    
+    margin-left: .625rem;
+    margin-right: 0rem;
+    
+}
+
+/*------------- #responsive mode --------------*/ 
+
+
+
